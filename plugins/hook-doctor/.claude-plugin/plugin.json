@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "hook-doctor",
+  "displayName": "Hook Doctor",
+  "version": "0.1.0",
+  "description": "Diagnose why your Claude Code hooks silently fail: lint settings.json, dry-run each hook against a synthetic event, and flag the known footguns with copy-pasteable fixes.",
+  "author": {
+    "name": "Ajay",
+    "email": "ch.ajay1707@gmail.com",
+    "url": "https://github.com/saiajay1"
+  },
+  "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/hook-doctor",
+  "repository": "https://github.com/saiajay1/ajay-cc-plugins",
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "debugging",
+    "diagnostics",
+    "settings",
+    "claude-code",
+    "harness"
+  ]
+}

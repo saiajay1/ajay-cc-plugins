@@ -1,0 +1,7 @@
+{
+  "session_id": "dryrun-session",
+  "transcript_path": "/tmp/dryrun-transcript.jsonl",
+  "cwd": "/path/to/project",
+  "hook_event_name": "UserPromptSubmit",
+  "prompt": "refactor the auth module"
+}

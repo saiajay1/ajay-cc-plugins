@@ -1,0 +1,14 @@
+{
+  "session_id": "dryrun-session",
+  "transcript_path": "/tmp/dryrun-transcript.jsonl",
+  "cwd": "/path/to/project",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "/path/to/project/example.txt",
+    "content": "hello"
+  },
+  "tool_response": {
+    "success": true
+  }
+}

@@ -7,6 +7,7 @@ Focused, zero-config plugins for the [Claude Code](https://code.claude.com) harn
 | Plugin | What it does |
 |--------|--------------|
 | [**subagent-verifier**](plugins/subagent-verifier) | Trust subagent output. Makes delegated agents return cited, structured findings, then independently re-checks every citation before you act. |
+| [**hook-doctor**](plugins/hook-doctor) | Diagnose why your Claude Code hooks silently fail — lint config, dry-run each hook against a synthetic event, and get copy-pasteable fixes. |
 
 ## Install
 
@@ -16,6 +17,7 @@ Focused, zero-config plugins for the [Claude Code](https://code.claude.com) harn
 
 # Install a plugin from it
 /plugin install subagent-verifier@ajay-cc-plugins
+/plugin install hook-doctor@ajay-cc-plugins
 ```
 
 > Live at **https://github.com/saiajay1/ajay-cc-plugins**.

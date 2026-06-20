@@ -19,6 +19,16 @@
       "license": "MIT",
       "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/subagent-verifier",
       "repository": "https://github.com/saiajay1/ajay-cc-plugins"
+    },
+    {
+      "name": "hook-doctor",
+      "source": "./hook-doctor",
+      "description": "Diagnose why your Claude Code hooks silently fail: lint settings.json, dry-run each hook against a synthetic event, and flag the known footguns with copy-pasteable fixes.",
+      "category": "harness",
+      "keywords": ["hooks", "debugging", "diagnostics", "settings", "harness"],
+      "license": "MIT",
+      "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/hook-doctor",
+      "repository": "https://github.com/saiajay1/ajay-cc-plugins"
     }
   ]
 }
