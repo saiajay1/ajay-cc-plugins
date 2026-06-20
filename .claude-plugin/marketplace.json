@@ -6,29 +6,26 @@
     "name": "Ajay",
     "email": "ch.ajay1707@gmail.com"
   },
-  "metadata": {
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "subagent-verifier",
-      "source": "./subagent-verifier",
+      "source": { "source": "github", "repo": "saiajay1/subagent-verifier" },
       "description": "Trust subagent output: make delegated agents return cited, structured findings, then independently re-check every citation before you act.",
       "category": "agents",
       "keywords": ["subagents", "verification", "multi-agent", "orchestration", "delegation"],
       "license": "MIT",
-      "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/subagent-verifier",
-      "repository": "https://github.com/saiajay1/ajay-cc-plugins"
+      "homepage": "https://github.com/saiajay1/subagent-verifier",
+      "repository": "https://github.com/saiajay1/subagent-verifier"
     },
     {
       "name": "hook-doctor",
-      "source": "./hook-doctor",
+      "source": { "source": "github", "repo": "saiajay1/hook-doctor" },
       "description": "Diagnose why your Claude Code hooks silently fail: lint settings.json, dry-run each hook against a synthetic event, and flag the known footguns with copy-pasteable fixes.",
       "category": "harness",
       "keywords": ["hooks", "debugging", "diagnostics", "settings", "harness"],
       "license": "MIT",
-      "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/hook-doctor",
-      "repository": "https://github.com/saiajay1/ajay-cc-plugins"
+      "homepage": "https://github.com/saiajay1/hook-doctor",
+      "repository": "https://github.com/saiajay1/hook-doctor"
     }
   ]
 }

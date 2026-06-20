@@ -1,39 +1,32 @@
 # ajay-cc-plugins
 
-Focused, zero-config plugins for the [Claude Code](https://code.claude.com) harness. One job each, done well.
+Focused, zero-config plugins for the [Claude Code](https://code.claude.com) harness — one job each, done well. This repo is a **marketplace** that aggregates the plugins below; each plugin lives in its own repo.
 
 ## Plugins
 
-| Plugin | What it does |
-|--------|--------------|
-| [**subagent-verifier**](plugins/subagent-verifier) | Trust subagent output. Makes delegated agents return cited, structured findings, then independently re-checks every citation before you act. |
-| [**hook-doctor**](plugins/hook-doctor) | Diagnose why your Claude Code hooks silently fail — lint config, dry-run each hook against a synthetic event, and get copy-pasteable fixes. |
+| Plugin | What it does | Repo |
+|--------|--------------|------|
+| **subagent-verifier** | Trust subagent output — make delegated agents return cited, structured findings, then independently re-check every citation before you act. | [saiajay1/subagent-verifier](https://github.com/saiajay1/subagent-verifier) |
+| **hook-doctor** | Diagnose why your Claude Code hooks silently fail — lint config, dry-run each hook against a synthetic event, and get copy-pasteable fixes. | [saiajay1/hook-doctor](https://github.com/saiajay1/hook-doctor) |
 
 ## Install
 
 ```sh
-# Add this marketplace
+# Add this marketplace once
 /plugin marketplace add saiajay1/ajay-cc-plugins
 
-# Install a plugin from it
+# Then install any plugin from it
 /plugin install subagent-verifier@ajay-cc-plugins
 /plugin install hook-doctor@ajay-cc-plugins
 ```
 
-> Live at **https://github.com/saiajay1/ajay-cc-plugins**.
-
-### Try it locally first (no GitHub needed)
+## Validate
 
 ```sh
-/plugin marketplace add /Users/ajay/Downloads/Models/subagent-verifier
-/plugin install subagent-verifier@ajay-cc-plugins
+claude plugin validate .   # this marketplace manifest
 ```
 
-Validate the manifests at any time:
-
-```sh
-claude plugin validate /Users/ajay/Downloads/Models/subagent-verifier
-```
+Each plugin repo additionally passes `claude plugin validate --strict` on its own.
 
 ## License
 
