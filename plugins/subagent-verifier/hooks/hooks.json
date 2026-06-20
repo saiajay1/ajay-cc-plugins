@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "A subagent just finished. Before you treat its findings as true or act on them, apply the `verified-delegation` skill: extract each cited claim and independently re-check its citation (re-read the file:line, or re-run the command) using the claim-verifier agent. Act only on confirmed claims; halt on any contradicted one. Skip this only for trivial, read-only summaries where being wrong costs nothing."
+          }
+        ]
+      }
+    ]
+  }
+}

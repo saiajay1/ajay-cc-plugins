@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-marketplace-manifest.json",
+  "name": "ajay-cc-plugins",
+  "description": "Focused, zero-config plugins for the Claude Code harness.",
+  "owner": {
+    "name": "Ajay",
+    "email": "ch.ajay1707@gmail.com"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "subagent-verifier",
+      "source": "./subagent-verifier",
+      "description": "Trust subagent output: make delegated agents return cited, structured findings, then independently re-check every citation before you act.",
+      "category": "agents",
+      "keywords": ["subagents", "verification", "multi-agent", "orchestration", "delegation"]
+    }
+  ]
+}
