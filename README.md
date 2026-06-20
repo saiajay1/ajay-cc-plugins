@@ -12,13 +12,13 @@ Focused, zero-config plugins for the [Claude Code](https://code.claude.com) harn
 
 ```sh
 # Add this marketplace
-/plugin marketplace add ajay1707/ajay-cc-plugins
+/plugin marketplace add saiajay1/ajay-cc-plugins
 
 # Install a plugin from it
 /plugin install subagent-verifier@ajay-cc-plugins
 ```
 
-> Replace `ajay1707/ajay-cc-plugins` with the GitHub `owner/repo` you publish this to.
+> Live at **https://github.com/saiajay1/ajay-cc-plugins**.
 
 ### Try it locally first (no GitHub needed)
 

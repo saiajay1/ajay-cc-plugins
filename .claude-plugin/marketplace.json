@@ -15,7 +15,10 @@
       "source": "./subagent-verifier",
       "description": "Trust subagent output: make delegated agents return cited, structured findings, then independently re-check every citation before you act.",
       "category": "agents",
-      "keywords": ["subagents", "verification", "multi-agent", "orchestration", "delegation"]
+      "keywords": ["subagents", "verification", "multi-agent", "orchestration", "delegation"],
+      "license": "MIT",
+      "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/subagent-verifier",
+      "repository": "https://github.com/saiajay1/ajay-cc-plugins"
     }
   ]
 }

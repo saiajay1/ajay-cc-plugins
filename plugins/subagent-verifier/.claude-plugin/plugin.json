@@ -6,8 +6,11 @@
   "description": "Trust subagent output: make delegated agents return cited, structured findings, then independently re-check every citation before you act.",
   "author": {
     "name": "Ajay",
-    "email": "ch.ajay1707@gmail.com"
+    "email": "ch.ajay1707@gmail.com",
+    "url": "https://github.com/saiajay1"
   },
+  "homepage": "https://github.com/saiajay1/ajay-cc-plugins/tree/main/plugins/subagent-verifier",
+  "repository": "https://github.com/saiajay1/ajay-cc-plugins",
   "license": "MIT",
   "keywords": [
     "subagents",
